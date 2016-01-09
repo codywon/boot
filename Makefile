@@ -5,7 +5,7 @@ export MAKECMD=make ARCH=mips CROSS_COMPILE=mips-openwrt-linux-uclibc-
 export PATH:=$(BUILD_TOPDIR)/toolchain/bin/:$(PATH)
 
 # boot delay (time to autostart boot command)
-export CONFIG_BOOTDELAY=1
+export CONFIG_BOOTDELAY=0
 
 # uncomment following line, to disable output in U-Boot console
 #export DISABLE_CONSOLE_OUTPUT=1
